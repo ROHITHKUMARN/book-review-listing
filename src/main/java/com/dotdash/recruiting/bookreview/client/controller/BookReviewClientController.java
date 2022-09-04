@@ -1,6 +1,5 @@
 package com.dotdash.recruiting.bookreview.client.controller;
 
-import com.dotdash.recruiting.bookreview.server.model.Book;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -31,11 +30,14 @@ public class BookReviewClientController {
                                 @RequestParam(value = "sortByTitle", required = false) Optional<Boolean> sortByTitle,
                                 @RequestParam(value = "page", required = false) Optional<Integer> page,
                                 @RequestParam(value = "size", required = false) Optional<Integer> size) {
+        if (null == search || search.isBlank()) {
+            return "error";
+        }
         List bookList;
         String url = BASE_URL + "books?search=" + search;
         if (sortByAuthor.isPresent() && sortByAuthor.get()) {
             url = url + "&sortByAuthor=true";
-        }else if (sortByTitle.isPresent() && sortByTitle.get()) {
+        } else if (sortByTitle.isPresent() && sortByTitle.get()) {
             url = url + "&sortByTitle=true";
         }
         if (page.isPresent() && size.isPresent()) {
