@@ -1,0 +1,11 @@
+2022-09-04 00:35:39,692 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 41371 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 00:35:39,698 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-04 00:35:41,023 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-04 00:35:41,043 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 00:35:41,043 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 00:35:41,133 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 00:35:42,376 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-04 00:35:42,412 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.286 seconds (JVM running for 3.762)
+2022-09-04 00:36:19,703 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 00:36:20,670 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=612-3633214-7216824; path=/; expires=Thu, 04 Sep 2042 04:36:20 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 04:36:20 -0000
+2022-09-04 00:49:15,578 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-3] Invalid cookie header: "Set-Cookie: ccsid=996-0533387-2340758; path=/; expires=Thu, 04 Sep 2042 04:49:15 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 04:49:15 -0000

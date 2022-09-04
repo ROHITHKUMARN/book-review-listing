@@ -1,0 +1,9 @@
+2022-09-02 22:44:51,884 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on Rohithkumars-MacBook-Pro.local with PID 38702 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-02 22:44:51,892 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-02 22:44:53,005 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-02 22:44:53,006 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-02 22:44:53,006 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-02 22:44:53,134 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-02 22:44:54,079 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-02 22:44:54,115 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 2.868 seconds (JVM running for 3.76)
+2022-09-02 23:10:20,896 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'

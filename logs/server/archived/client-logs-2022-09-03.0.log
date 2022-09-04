@@ -1,0 +1,549 @@
+2022-09-03 18:02:53,485 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 39328 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 18:02:53,493 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 18:02:54,824 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 18:02:54,824 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 18:02:54,825 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 18:02:54,914 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 18:02:56,072 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 18:02:56,123 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.268 seconds (JVM running for 3.759)
+2022-09-03 18:03:16,171 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 18:03:17,076 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=332-3087782-2996830; path=/; expires=Wed, 03 Sep 2042 22:03:16 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:03:16 -0000
+2022-09-03 18:03:25,450 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-2] Invalid cookie header: "Set-Cookie: ccsid=788-7920037-9732081; path=/; expires=Wed, 03 Sep 2042 22:03:25 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:03:25 -0000
+2022-09-03 18:03:29,652 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-3] Invalid cookie header: "Set-Cookie: ccsid=977-4028052-7030891; path=/; expires=Wed, 03 Sep 2042 22:03:29 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:03:29 -0000
+2022-09-03 18:03:36,001 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-4] Invalid cookie header: "Set-Cookie: ccsid=004-9584498-7128380; path=/; expires=Wed, 03 Sep 2042 22:03:35 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:03:35 -0000
+2022-09-03 18:03:40,301 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-5] Invalid cookie header: "Set-Cookie: ccsid=412-0606941-0729742; path=/; expires=Wed, 03 Sep 2042 22:03:40 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:03:40 -0000
+2022-09-03 18:12:23,819 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 39395 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 18:12:23,828 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 18:12:25,249 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 18:12:25,250 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 18:12:25,250 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 18:12:25,331 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 18:12:26,251 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 18:12:26,288 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.061 seconds (JVM running for 3.522)
+2022-09-03 18:12:32,120 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 18:12:33,052 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=431-0825594-1853837; path=/; expires=Wed, 03 Sep 2042 22:12:32 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:12:32 -0000
+2022-09-03 18:12:36,214 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-2] Invalid cookie header: "Set-Cookie: ccsid=983-9650523-5544356; path=/; expires=Wed, 03 Sep 2042 22:12:35 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:12:35 -0000
+2022-09-03 18:12:46,968 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-3] Invalid cookie header: "Set-Cookie: ccsid=478-2041595-3909665; path=/; expires=Wed, 03 Sep 2042 22:12:46 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:12:46 -0000
+2022-09-03 18:13:40,525 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-5] Invalid cookie header: "Set-Cookie: ccsid=278-5047908-9817908; path=/; expires=Wed, 03 Sep 2042 22:13:40 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:13:40 -0000
+2022-09-03 18:13:45,962 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-6] Invalid cookie header: "Set-Cookie: ccsid=850-6920650-0134630; path=/; expires=Wed, 03 Sep 2042 22:13:45 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:13:45 -0000
+2022-09-03 18:13:49,737 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-8] Invalid cookie header: "Set-Cookie: ccsid=200-6413676-9961001; path=/; expires=Wed, 03 Sep 2042 22:13:49 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 22:13:49 -0000
+2022-09-03 19:14:46,673 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 39837 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 19:14:46,679 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 19:14:48,109 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 19:14:48,110 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 19:14:48,111 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 19:14:48,197 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 19:14:49,263 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 19:14:49,302 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.259 seconds (JVM running for 3.798)
+2022-09-03 19:15:11,283 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 19:15:12,151 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=663-4916455-3786064; path=/; expires=Wed, 03 Sep 2042 23:15:11 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 23:15:11 -0000
+2022-09-03 19:15:21,551 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-2] Invalid cookie header: "Set-Cookie: ccsid=911-0823540-4392698; path=/; expires=Wed, 03 Sep 2042 23:15:21 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 23:15:21 -0000
+2022-09-03 19:15:30,969 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-3] Invalid cookie header: "Set-Cookie: ccsid=863-2383189-1060877; path=/; expires=Wed, 03 Sep 2042 23:15:30 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 23:15:30 -0000
+2022-09-03 19:17:27,395 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-7] Invalid cookie header: "Set-Cookie: ccsid=512-6844808-8813541; path=/; expires=Wed, 03 Sep 2042 23:17:27 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 23:17:27 -0000
+2022-09-03 19:17:37,120 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-8] Invalid cookie header: "Set-Cookie: ccsid=489-0647949-7495205; path=/; expires=Wed, 03 Sep 2042 23:17:36 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 23:17:36 -0000
+2022-09-03 19:17:43,369 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-9] Invalid cookie header: "Set-Cookie: ccsid=597-7475876-5349121; path=/; expires=Wed, 03 Sep 2042 23:17:43 -0000". Invalid 'expires' attribute: Wed, 03 Sep 2042 23:17:43 -0000
+2022-09-03 20:08:03,247 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40049 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 20:08:03,251 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 20:08:04,583 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:08:04,583 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 20:08:04,584 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 20:08:04,720 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 20:08:06,047 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:08:06,096 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.493 seconds (JVM running for 4.03)
+2022-09-03 20:08:32,648 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 20:08:33,593 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=351-1542177-1025386; path=/; expires=Thu, 04 Sep 2042 00:08:33 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:08:33 -0000
+2022-09-03 20:11:17,606 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2] with root cause
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at BookReviewServiceImpl.getPaginatedBooksList(BookReviewServiceImpl.java:73)
+	at com.dotdash.recruiting.bookreview.server.controller.BookReviewServerController.getBookListByAuthor(BookReviewServerController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at de.codecentric.boot.admin.server.ui.web.servlet.HomepageForwardingFilter.doFilter(HomepageForwardingFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-03 20:11:37,033 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40067 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 20:11:37,039 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 20:11:38,666 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:11:38,667 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 20:11:38,667 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 20:11:38,763 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 20:11:39,888 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:11:39,934 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.577 seconds (JVM running for 4.089)
+2022-09-03 20:11:48,904 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 20:11:49,887 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=668-9522240-3440454; path=/; expires=Thu, 04 Sep 2042 00:11:49 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:11:49 -0000
+2022-09-03 20:12:36,878 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-2] Invalid cookie header: "Set-Cookie: ccsid=601-7352252-3031933; path=/; expires=Thu, 04 Sep 2042 00:12:36 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:12:36 -0000
+2022-09-03 20:14:46,109 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40081 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 20:14:46,113 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 20:14:47,646 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:14:47,647 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 20:14:47,647 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 20:14:47,753 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 20:14:48,908 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:14:48,952 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.88 seconds (JVM running for 4.512)
+2022-09-03 20:14:54,569 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 20:14:55,532 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=595-5646547-4243018; path=/; expires=Thu, 04 Sep 2042 00:14:55 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:14:55 -0000
+2022-09-03 20:15:52,714 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20] with root cause
+java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at BookReviewServiceImpl.getPaginatedBooksList(BookReviewServiceImpl.java:67)
+	at com.dotdash.recruiting.bookreview.server.controller.BookReviewServerController.getBookListByAuthor(BookReviewServerController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at de.codecentric.boot.admin.server.ui.web.servlet.HomepageForwardingFilter.doFilter(HomepageForwardingFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-03 20:18:58,823 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-3] Invalid cookie header: "Set-Cookie: ccsid=556-6538119-8157225; path=/; expires=Thu, 04 Sep 2042 00:18:58 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:18:58 -0000
+2022-09-03 20:19:03,506 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20] with root cause
+java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at BookReviewServiceImpl.getPaginatedBooksList(BookReviewServiceImpl.java:67)
+	at com.dotdash.recruiting.bookreview.server.controller.BookReviewServerController.getBookListByAuthor(BookReviewServerController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at de.codecentric.boot.admin.server.ui.web.servlet.HomepageForwardingFilter.doFilter(HomepageForwardingFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-03 20:19:30,283 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40096 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 20:19:30,292 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 20:19:31,917 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:19:31,918 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 20:19:31,918 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 20:19:32,014 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 20:19:33,126 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:19:33,172 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.845 seconds (JVM running for 4.558)
+2022-09-03 20:19:40,317 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 20:19:41,328 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=551-9861658-0904380; path=/; expires=Thu, 04 Sep 2042 00:19:41 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:19:41 -0000
+2022-09-03 20:22:03,480 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20] with root cause
+java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at BookReviewServiceImpl.getPaginatedBooksList(BookReviewServiceImpl.java:68)
+	at com.dotdash.recruiting.bookreview.server.controller.BookReviewServerController.getBookListByAuthor(BookReviewServerController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at de.codecentric.boot.admin.server.ui.web.servlet.HomepageForwardingFilter.doFilter(HomepageForwardingFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-03 20:22:11,542 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40104 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 20:22:11,553 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 20:22:13,381 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:22:13,382 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 20:22:13,382 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 20:22:13,484 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 20:22:14,672 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:22:14,719 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 4.094 seconds (JVM running for 4.746)
+2022-09-03 20:22:16,690 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 20:22:17,692 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=625-6753659-0618224; path=/; expires=Thu, 04 Sep 2042 00:22:17 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:22:17 -0000
+2022-09-03 20:22:28,726 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20] with root cause
+java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at BookReviewServiceImpl.getPaginatedBooksList(BookReviewServiceImpl.java:67)
+	at com.dotdash.recruiting.bookreview.server.controller.BookReviewServerController.getBookListByAuthor(BookReviewServerController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at de.codecentric.boot.admin.server.ui.web.servlet.HomepageForwardingFilter.doFilter(HomepageForwardingFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-03 20:22:59,457 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-2] Invalid cookie header: "Set-Cookie: ccsid=943-2128449-7868757; path=/; expires=Thu, 04 Sep 2042 00:22:59 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:22:59 -0000
+2022-09-03 20:24:38,694 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20] with root cause
+java.lang.IndexOutOfBoundsException: Index 20 out of bounds for length 20
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at BookReviewServiceImpl.getPaginatedBooksList(BookReviewServiceImpl.java:67)
+	at com.dotdash.recruiting.bookreview.server.controller.BookReviewServerController.getBookListByAuthor(BookReviewServerController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at de.codecentric.boot.admin.server.ui.web.servlet.HomepageForwardingFilter.doFilter(HomepageForwardingFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-03 20:24:43,218 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40120 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 20:24:43,226 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 20:24:45,113 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:24:45,114 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 20:24:45,114 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 20:24:45,204 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 20:24:46,456 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:24:46,508 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 4.186 seconds (JVM running for 4.8)
+2022-09-03 20:24:51,136 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 20:24:52,032 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=852-2923500-3933940; path=/; expires=Thu, 04 Sep 2042 00:24:51 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:24:51 -0000
+2022-09-03 20:29:22,997 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40146 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 20:29:23,014 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 20:29:24,240 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:29:24,242 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 20:29:24,244 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 20:29:24,342 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 20:29:25,374 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:29:25,409 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 2.986 seconds (JVM running for 3.479)
+2022-09-03 20:29:49,612 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 20:29:50,533 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=113-7028683-1090524; path=/; expires=Thu, 04 Sep 2042 00:29:50 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:29:50 -0000
+2022-09-03 20:30:05,880 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-2] Invalid cookie header: "Set-Cookie: ccsid=309-5557805-9139170; path=/; expires=Thu, 04 Sep 2042 00:30:05 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:30:05 -0000
+2022-09-03 20:32:25,705 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40159 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 20:32:25,717 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 20:32:26,980 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:32:26,981 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 20:32:26,981 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 20:32:27,065 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 20:32:28,028 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 20:32:28,062 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.034 seconds (JVM running for 3.496)
+2022-09-03 20:32:44,626 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 20:32:45,528 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=986-5062802-2553108; path=/; expires=Thu, 04 Sep 2042 00:32:45 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:32:45 -0000
+2022-09-03 20:32:50,208 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-2] Invalid cookie header: "Set-Cookie: ccsid=732-4666498-1123720; path=/; expires=Thu, 04 Sep 2042 00:32:50 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:32:50 -0000
+2022-09-03 20:33:00,778 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-3] Invalid cookie header: "Set-Cookie: ccsid=989-5594241-9788624; path=/; expires=Thu, 04 Sep 2042 00:33:00 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:33:00 -0000
+2022-09-03 20:33:08,236 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-5] Invalid cookie header: "Set-Cookie: ccsid=862-3978049-4465521; path=/; expires=Thu, 04 Sep 2042 00:33:07 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:33:07 -0000
+2022-09-03 20:33:12,270 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-6] Invalid cookie header: "Set-Cookie: ccsid=712-5780328-8337178; path=/; expires=Thu, 04 Sep 2042 00:33:12 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:33:12 -0000
+2022-09-03 20:33:29,932 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-7] Invalid cookie header: "Set-Cookie: ccsid=145-9934146-9249137; path=/; expires=Thu, 04 Sep 2042 00:33:29 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:33:29 -0000
+2022-09-03 20:33:39,174 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-8] Invalid cookie header: "Set-Cookie: ccsid=560-2880420-5503120; path=/; expires=Thu, 04 Sep 2042 00:33:38 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:33:38 -0000
+2022-09-03 20:33:48,393 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-9] Invalid cookie header: "Set-Cookie: ccsid=483-2570780-7207001; path=/; expires=Thu, 04 Sep 2042 00:33:48 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:33:48 -0000
+2022-09-03 20:33:55,968 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-10] Invalid cookie header: "Set-Cookie: ccsid=134-9116020-5658828; path=/; expires=Thu, 04 Sep 2042 00:33:55 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:33:55 -0000
+2022-09-03 20:33:59,759 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=136-1373123-5591787; path=/; expires=Thu, 04 Sep 2042 00:33:59 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:33:59 -0000
+2022-09-03 20:34:16,758 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-4] Invalid cookie header: "Set-Cookie: ccsid=162-9744246-6196594; path=/; expires=Thu, 04 Sep 2042 00:34:16 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:34:16 -0000
+2022-09-03 20:34:26,266 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-5] Invalid cookie header: "Set-Cookie: ccsid=210-8328024-1017719; path=/; expires=Thu, 04 Sep 2042 00:34:26 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:34:26 -0000
+2022-09-03 20:34:30,169 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-6] Invalid cookie header: "Set-Cookie: ccsid=846-6282340-2203929; path=/; expires=Thu, 04 Sep 2042 00:34:29 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 00:34:29 -0000
+2022-09-03 23:02:38,983 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationServer using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 40814 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-03 23:02:38,996 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: server
+2022-09-03 23:02:40,320 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 23:02:40,320 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-03 23:02:40,321 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-03 23:02:40,399 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-03 23:02:41,437 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2022-09-03 23:02:41,473 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationServer in 3.059 seconds (JVM running for 3.511)
+2022-09-03 23:02:48,071 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-03 23:02:48,988 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-1] Invalid cookie header: "Set-Cookie: ccsid=138-6145231-5343292; path=/; expires=Thu, 04 Sep 2042 03:02:48 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 03:02:48 -0000
+2022-09-03 23:02:52,560 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-2] Invalid cookie header: "Set-Cookie: ccsid=273-0275394-1711879; path=/; expires=Thu, 04 Sep 2042 03:02:52 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 03:02:52 -0000
+2022-09-03 23:02:59,012 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-3] Invalid cookie header: "Set-Cookie: ccsid=359-4616613-7831862; path=/; expires=Thu, 04 Sep 2042 03:02:58 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 03:02:58 -0000
+2022-09-03 23:03:06,692 WARN org.apache.http.client.protocol.ResponseProcessCookies [http-nio-127.0.0.1-8081-exec-4] Invalid cookie header: "Set-Cookie: ccsid=668-2176055-2945423; path=/; expires=Thu, 04 Sep 2042 03:03:06 -0000". Invalid 'expires' attribute: Thu, 04 Sep 2042 03:03:06 -0000
