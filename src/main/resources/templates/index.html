@@ -7,12 +7,12 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<body bgcolor="#ffc266">
 <div th:switch="${books}">
-    <h2 th:case="null">No Books</h2>
+    <h2 th:case="null" align="center">No Books</h2>
     <div th:case="*">
-        <h2>Books</h2>
-        <table border="2">
+        <h2 align="center">Books</h2>
+        <table border="3" align="center">
             <thead>
             <tr>
                 <th>Author Name</th>

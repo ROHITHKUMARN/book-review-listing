@@ -32,20 +32,16 @@ public class BookReviewClientController {
                                 @RequestParam(value = "page", required = false) Optional<Integer> page,
                                 @RequestParam(value = "size", required = false) Optional<Integer> size) {
         List bookList;
-        String url = BASE_URL + "/books?search=" + search;
+        String url = BASE_URL + "books?search=" + search;
         if (sortByAuthor.isPresent() && sortByAuthor.get()) {
             url = url + "&sortByAuthor=true";
-            bookList = new RestTemplate().getForObject(url, List.class);
-        } else if (sortByTitle.isPresent() && sortByTitle.get()) {
+        }else if (sortByTitle.isPresent() && sortByTitle.get()) {
             url = url + "&sortByTitle=true";
-            bookList = new RestTemplate().getForObject(url, List.class);
-        } else if (page.isPresent() && size.isPresent()) {
-            url = url + "&page=" + page.get() + "&size=" + size.get();
-            bookList = new RestTemplate().getForObject(url, List.class);
-        } else {
-            bookList = new RestTemplate().getForObject(url, List.class);
         }
-
+        if (page.isPresent() && size.isPresent()) {
+            url = url + "&page=" + page.get() + "&size=" + size.get();
+        }
+        bookList = new RestTemplate().getForObject(url, List.class);
         model.addAttribute("books", bookList);
         return "index";
     }

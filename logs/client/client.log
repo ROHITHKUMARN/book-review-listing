@@ -8,3 +8,93 @@
 2022-09-04 00:35:56,891 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 4.738 seconds (JVM running for 5.653)
 2022-09-04 00:35:57,142 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-09-04 00:35:57,248 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T04:35:57.212+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:12:41,933 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 41909 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:12:41,940 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:12:43,149 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:12:43,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:12:43,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:12:43,238 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:12:44,245 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:12:44,282 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 2.909 seconds (JVM running for 3.414)
+2022-09-04 01:12:44,502 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:12:44,583 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:12:44.555+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:15:49,137 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 41930 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:15:49,140 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:15:50,371 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:15:50,371 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:15:50,372 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:15:50,464 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:15:51,567 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:15:51,612 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 3.129 seconds (JVM running for 4.18)
+2022-09-04 01:15:51,866 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:15:51,948 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:15:51.921+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:16:31,698 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 41938 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:16:31,703 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:16:32,937 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:16:32,937 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:16:32,938 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:16:33,057 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:16:34,221 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:16:34,268 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 3.199 seconds (JVM running for 3.734)
+2022-09-04 01:16:34,534 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:16:34,615 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:16:34.586+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:18:26,811 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 41950 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:18:26,815 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:18:28,080 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:18:28,081 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:18:28,082 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:18:28,175 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:18:29,301 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:18:29,345 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 3.176 seconds (JVM running for 3.797)
+2022-09-04 01:18:29,591 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:18:29,679 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:18:29.648+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:19:42,279 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 41959 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:19:42,282 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:19:43,531 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:19:43,532 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:19:43,532 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:19:43,625 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:19:44,675 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:19:44,720 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 3.038 seconds (JVM running for 3.589)
+2022-09-04 01:19:44,965 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:19:45,045 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:19:45.014+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:21:02,855 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 41969 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:21:02,860 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:21:04,125 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:21:04,126 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:21:04,126 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:21:04,220 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:21:05,293 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:21:05,337 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 3.102 seconds (JVM running for 3.652)
+2022-09-04 01:21:05,612 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:21:05,704 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:21:05.672+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:23:31,549 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 41980 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:23:31,553 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:23:32,814 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:23:32,814 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:23:32,815 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:23:32,908 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:23:33,994 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:23:34,039 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 3.117 seconds (JVM running for 3.65)
+2022-09-04 01:23:34,283 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:23:34,365 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:23:34.339+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:32:27,510 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 42057 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:32:27,514 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:32:28,688 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:32:28,689 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:32:28,689 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:32:28,782 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:32:29,703 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:32:29,738 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 2.776 seconds (JVM running for 3.215)
+2022-09-04 01:32:29,947 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:32:30,018 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:32:29.994+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
+2022-09-04 01:34:30,670 INFO org.springframework.boot.StartupInfoLogger [main] Starting BookReviewApplicationClient using Java 11.0.14.1 on RohithkumarsMBP.attlocal.net with PID 42070 (/Users/rohithkumar/Downloads/book-review-listing/target/classes started by rohithkumar in /Users/rohithkumar/Downloads/book-review-listing)
+2022-09-04 01:34:30,674 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: client
+2022-09-04 01:34:31,916 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:34:31,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-04 01:34:31,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-04 01:34:31,990 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-04 01:34:33,014 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-127.0.0.1-8080"]
+2022-09-04 01:34:33,053 INFO org.springframework.boot.StartupInfoLogger [main] Started BookReviewApplicationClient in 2.895 seconds (JVM running for 3.345)
+2022-09-04 01:34:33,283 INFO org.apache.juli.logging.DirectJDKLog [http-nio-127.0.0.1-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-04 01:34:33,355 WARN de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator [registrationTask1] Failed to register application as Application(name=BookReview Client, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/) at spring-boot-admin ([http://127.0.0.1:8080/instances]): 404 : [{"timestamp":"2022-09-04T05:34:33.330+00:00","status":404,"error":"Not Found","message":"","path":"/instances"}]. Further attempts are logged on DEBUG level
