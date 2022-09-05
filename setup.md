@@ -5,8 +5,8 @@
 - Next run the server module and then run the client module
 
 There are two modules in the project:
-    - client : To run the application client select BookReviewApplicationClient class and run as Springboot application
-    - server : To run the application server select BookReviewApplicationServer class and run as Springboot application
+- client : To run the application client select BookReviewApplicationClient class and run as Springboot application
+- server : To run the application server select BookReviewApplicationServer class and run as Springboot application
 
 ## Running Unit Tests
 
