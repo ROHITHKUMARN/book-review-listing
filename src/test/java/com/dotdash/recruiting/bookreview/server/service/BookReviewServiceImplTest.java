@@ -84,14 +84,13 @@ public class BookReviewServiceImplTest {
     @Test
     public void getXMLResponseFromGoodReadsAPI_InvalidStatus() throws IOException {
         exceptionRule.expect(GoodReadsException.class);
-        exceptionRule.expectMessage("Failed : HTTP Error code : " + HttpStatus.SC_INTERNAL_SERVER_ERROR);
 
         when(mockCloseableHttpClient.execute(mockHttpGet)).thenReturn(mockCloseableHttpResponse);
         when(mockCloseableHttpResponse.getStatusLine()).thenReturn(mockStatusLine);
         when(mockStatusLine.getStatusCode()).thenReturn(HttpStatus.SC_INTERNAL_SERVER_ERROR);
         when(mockCloseableHttpResponse.getEntity()).thenReturn(mockHttpEntity);
 
-        assertNotNull(bookReviewService.getXMLResponseFromGoodReadsAPI(QUERY_URL));
+        assertNotNull(bookReviewService.getXMLResponseFromGoodReadsAPI("QUERY_URL"));
     }
 
     @Test

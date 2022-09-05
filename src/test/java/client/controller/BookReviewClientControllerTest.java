@@ -1,52 +1,87 @@
 package client.controller;
 
+import com.dotdash.recruiting.bookreview.client.BookReviewApplicationClient;
+import com.dotdash.recruiting.bookreview.client.constant.ApplicationConstants;
 import com.dotdash.recruiting.bookreview.client.controller.BookReviewClientController;
+import com.dotdash.recruiting.bookreview.server.model.Book;
+import org.assertj.core.util.Lists;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.runner.RunWith;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.web.WebAppConfiguration;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.util.ReflectionTestUtils;
+import org.springframework.test.web.client.ExpectedCount;
+import org.springframework.test.web.client.MockRestServiceServer;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MvcResult;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.client.RestTemplate;
 
-import static org.junit.Assert.*;
+import java.net.URI;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
+import static org.springframework.test.web.client.response.MockRestResponseCreators.withStatus;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = BookReviewClientController.class)
-@WebAppConfiguration
+@RunWith(SpringRunner.class)
+@ContextConfiguration(classes = {ApplicationConstants.class,
+        BookReviewClientController.class, BookReviewApplicationClient.class})
+@WebMvcTest(BookReviewClientController.class)
 public class BookReviewClientControllerTest {
 
-    private MockMvc mockMvc;
+    @Autowired
+    BookReviewClientController bookReviewClientController;
 
     @Autowired
-    WebApplicationContext webApplicationContext;
+    private MockMvc mockMvc;
+
+    @Mock
+    RestTemplate restTemplate;
+
+    private MockRestServiceServer mockServer;
+
+    private static final String baseUrl = "http://localhost:8080/api/";
+    private static final String serverUrl = "http://localhost:8081/";
 
     @Before
-    public void setUp() {
-        mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
+    public void setup() {
+        ReflectionTestUtils.setField(bookReviewClientController, "BASE_URL", baseUrl);
+    }
+
+    @BeforeEach
+    public void init() {
+        mockServer = MockRestServiceServer.createServer(restTemplate);
     }
 
     @Test
-    public void getProductsList() throws Exception {
-        String uri = "http://localhost:8080/showBooks?search=gandhi";
-        MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri))
-                .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.ALL))
-                .andReturn();
+    public void getBooks_NoBooks() throws Exception {
+        List<Book> bookList = Lists.newArrayList(
+                Book.builder().author("X").title("B").url("http://x.png").build(),
+                Book.builder().author("Y").title("A").url("http://y.png").build()
+        );
 
-        int status = mvcResult.getResponse().getStatus();
-        String content = mvcResult.getResponse().getContentAsString();
-        assertNotNull(content);
-        assertTrue(content.contains("index"));
-        assertEquals(200, status);
+        when(restTemplate.getForObject(baseUrl + "?search=example", List.class))
+                .thenReturn(bookList);
+
+        this.mockMvc.perform(get(serverUrl + "?search=example"))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(content().encoding("UTF-8"))
+                .andExpect(content().contentTypeCompatibleWith(MediaType.TEXT_HTML_VALUE));
     }
 
 }

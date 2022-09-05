@@ -40,36 +40,35 @@ public class BookReviewApplicationClient implements ApplicationRunner {
                     "-h, --host to display the hostname or ip address where the server can be found");
             return;
         }
-        if (args.containsOption(FULL_SEARCH) && args.containsOption(SORT)) {
-            String keyWord = String.join("", args.getOptionValues(FULL_SEARCH));
-            String sortCriteria = String.join("", args.getOptionValues(SORT));
-            if (sortCriteria.equalsIgnoreCase(AUTHOR)) {
-                String url = BASE_URL += "books?search=" + keyWord + "&sortByAuthor=true";
-                List bookList = new RestTemplate().getForObject(url, List.class);
-                if (bookList != null) {
-                    bookList.forEach(System.out::println);
-                }
-                return;
-            } else if (sortCriteria.equalsIgnoreCase(TITLE)) {
-                String url = BASE_URL += "books?search=" + keyWord + "&sortByTitle=true";
-                List bookList = new RestTemplate().getForObject(url, List.class);
-                if (bookList != null) {
-                    bookList.forEach(System.out::println);
-                }
-                return;
-            }
-        }
         if (args.containsOption(FULL_SEARCH)) {
             String keyWord = String.join("", args.getOptionValues(FULL_SEARCH));
             String url = BASE_URL += "books?search=" + keyWord;
-            List bookList = new RestTemplate().getForObject(url, List.class);
-            if (bookList != null) {
-                bookList.forEach(System.out::println);
+            if (args.containsOption(SORT)) {
+                String sortCriteria = String.join("", args.getOptionValues(SORT));
+                if (sortCriteria.equalsIgnoreCase(AUTHOR)) {
+                    url = url + "&sortByAuthor=true";
+                } else if (sortCriteria.equalsIgnoreCase(TITLE)) {
+                    url += "&sortByTitle=true";
+                }
             }
+            if (args.containsOption(PAGE) && args.containsOption(SIZE)) {
+                String page = String.join("", args.getOptionValues(PAGE));
+                String size = String.join("", args.getOptionValues(SIZE));
+                url = url + "&page=" + page + "&size=" + size;
+            }
+            printResultSet(url);
             return;
         }
+
         if (args.containsOption(HOST) || args.containsOption(FULL_HOST)) {
             System.out.println("Application server is running on host= 127.0.0.1");
+        }
+    }
+
+    private void printResultSet(String url) {
+        List bookList = new RestTemplate().getForObject(url, List.class);
+        if (bookList != null) {
+            bookList.forEach(System.out::println);
         }
     }
 }

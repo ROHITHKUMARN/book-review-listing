@@ -1,6 +1,7 @@
 package com.dotdash.recruiting.bookreview.client.controller;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +16,8 @@ public class BookReviewClientController {
 
     @Value("${application.url}")
     private String BASE_URL;
+
+    RestTemplate restTemplate = new RestTemplate();
 
     /**
      * @param model        : The model to render the data to UI
@@ -43,7 +46,7 @@ public class BookReviewClientController {
         if (page.isPresent() && size.isPresent()) {
             url = url + "&page=" + page.get() + "&size=" + size.get();
         }
-        bookList = new RestTemplate().getForObject(url, List.class);
+        bookList = restTemplate.getForObject(url, List.class);
         model.addAttribute("books", bookList);
         return "index";
     }
