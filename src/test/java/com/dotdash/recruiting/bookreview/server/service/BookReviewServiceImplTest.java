@@ -57,7 +57,7 @@ public class BookReviewServiceImplTest {
 
     @Test
     public void getXMLResponseFromGoodReadsAPI_OK() {
-        bookReviewService.getXMLResponseFromGoodReadsAPI(QUERY_URL);
+        assertNotNull(bookReviewService.getXMLResponseFromGoodReadsAPI(QUERY_URL+"lion"));
     }
 
     @Test
@@ -86,12 +86,12 @@ public class BookReviewServiceImplTest {
         exceptionRule.expect(GoodReadsException.class);
         exceptionRule.expectMessage("Failed : HTTP Error code : " + HttpStatus.SC_INTERNAL_SERVER_ERROR);
 
-        when(mockHttpClientFactory.createCloseableHttpClient()).thenReturn(mockCloseableHttpClient);
-        when(mockCloseableHttpClient.execute(any(HttpGet.class))).thenReturn(mockCloseableHttpResponse);
+        when(mockCloseableHttpClient.execute(mockHttpGet)).thenReturn(mockCloseableHttpResponse);
         when(mockCloseableHttpResponse.getStatusLine()).thenReturn(mockStatusLine);
         when(mockStatusLine.getStatusCode()).thenReturn(HttpStatus.SC_INTERNAL_SERVER_ERROR);
+        when(mockCloseableHttpResponse.getEntity()).thenReturn(mockHttpEntity);
 
-        bookReviewService.getXMLResponseFromGoodReadsAPI("SAMPLE_URL");
+        assertNotNull(bookReviewService.getXMLResponseFromGoodReadsAPI(QUERY_URL));
     }
 
     @Test
