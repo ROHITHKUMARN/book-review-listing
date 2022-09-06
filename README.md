@@ -32,7 +32,7 @@ The purpose of this exercise is to test your familiarity with Java/Kotlin full-s
 
 ## Misc Notes ##
 
-* https://www.goodreads.com/api/index#search.books (Key: RDfV4oPehM6jNhxfNQzzQ, Secret: fu8fQ5oGQEDlwiICw45dGSuxiu13STyIrxY0Rb6ibI).
+* https://www.goodreads.com/api/index#search.books
 * The Goodreads search API returns XML. Transform the XML into JSON and only send what your app will need
 * Be sure to document your code, especially cases where you might have made a different choice in a 'real' application_
 * Upon completion, be sure that your code is accessible through a git repo, and provide the link to that repo to Dotdash
